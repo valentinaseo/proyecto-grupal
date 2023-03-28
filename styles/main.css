@@ -1,0 +1,65 @@
+
+body{
+    background-image: url(../assets/fondo-login.jpg);
+    font-family: 'Open Sans';
+}
+
+/* Estilos para el contenedor que tiene todos los elementos */
+.contenedor_principal {
+    display: flex;
+    justify-content: center;
+    gap: 50px;  
+}
+/* Estilos para el recuadro donde está el texto de registro y el botón de iniciar sesión */
+.contenedor_registro {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    background-color: #7ac23aa4;
+    padding: 10px 40px;
+    border-radius: 30px;
+    margin-right: 50px;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: left;
+    width: 550px;
+    height: 350px;
+}
+h1{
+    font-size: 40px;
+    font-style: bold;
+    font-weight: 700;
+}
+.beneficios_registro{
+    font-size: 20px;
+}
+.boton_login_signup {
+    width: 40%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+}
+.contenedor_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    margin-top: 50px;
+    width: 500px;
+    background-color: rgba(128, 128, 128, 0.412);
+    justify-content: space-between;
+    padding: 20px;
+    height: 600px;
+}
+.campos_form {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.btn_ingresar {
+    align-self: center;
+}
+.checkbox{
+    margin-top: 10px;
+    align-self: center;
+}
